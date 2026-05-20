@@ -6,7 +6,7 @@ const experiences = [
     year: '2024 - Present',
     title: 'Frontend Engineer',
     company: 'AI4Justice',
-    description: 'Sole frontend engineer for a production AI platform. Built the entire frontend from scratch, consumed REST APIs, collaborated with backend team and deployed to Microsoft Azure. Live production website serving real users.',
+    description: 'Sole frontend engineer for a production AI platform. Built the entire frontend from scratch, consumed REST APIs, collaborated with backend team. Live production website serving real users.',
     current: true,
   },
   {
