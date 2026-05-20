@@ -3,6 +3,13 @@ import { motion } from 'framer-motion'
 
 const experiences = [
   {
+  year: '2024 - 2025',
+  title: 'Frontend Engineer',
+  company: 'AI4Justice',
+  description: 'Sole frontend engineer for a production AI platform. Built the entire frontend from scratch, consumed REST APIs, collaborated with backend team and deployed to Microsoft Azure. Live production website serving real users.',
+  current: false,
+},
+{
     year: '2024 - Present',
     title: 'Self-Taught Frontend Developer',
     company: 'Independent',
