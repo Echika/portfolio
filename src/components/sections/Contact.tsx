@@ -60,8 +60,8 @@ const handleSubmit = async (e: React.FormEvent) => {
     {
       icon: <EmailIcon sx={{ color: '#FF6B00' }} />,
       label: 'Email',
-      value: 'echikaraphael286@gmail.com',
-      href: 'mailto:echikaraphael286@gmail.com',
+      value: 'echikaraphael@gmail.com',
+      href: 'mailto:echikaraphael@gmail.com',
     },
     {
       icon: <LinkedInIcon sx={{ color: '#FF6B00' }} />,
