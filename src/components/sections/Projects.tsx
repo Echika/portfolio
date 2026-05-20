@@ -16,7 +16,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const projects = [
   {
     title: "CineVault",
-    description: "A full-stack movie discovery app where users can browse trending movies, search titles, view details with trailers and manage a personal watchlist. Built with real authentication and database.",
+    description:
+      "A full-stack movie discovery app where users can browse trending movies, search titles, view details with trailers and manage a personal watchlist. Built with real authentication and database.",
     image: "",
     tags: ["React", "TypeScript", "Supabase", "TMDB API", "Tailwind CSS"],
     live: "https://cinevault-nine-mu.vercel.app",
@@ -26,7 +27,8 @@ const projects = [
   },
   {
     title: "PlentyTask",
-    description: "A task management app allowing users to create, edit, and organize tasks into projects. Features include drag-and-drop task organization and real-time updates.",
+    description:
+      "A task management app allowing users to create, edit, and organize tasks into projects. Features include drag-and-drop task organization and real-time updates.",
     image: "",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     live: "https://quicktasker-frontend.vercel.app/",
@@ -36,7 +38,8 @@ const projects = [
   },
   {
     title: "AI4Justice",
-    description: "Sole Frontend Engineer for AI4Justice — a production platform promoting justice through AI. I single-handedly built the entire frontend, consumed all REST APIs, and deployed to Microsoft Azure as part of a cross-functional team.",
+    description:
+      "Sole Frontend Engineer for AI4Justice — a production platform promoting justice through AI. I single-handedly built the entire frontend, consumed all REST APIs, and deployed to Microsoft Azure as part of a cross-functional team.",
     image: "",
     tags: ["Frontend", "REST APIs", "Azure", "Production", "Solo Frontend"],
     live: "https://lemon-pebble-0e0bb080f.7.azurestaticapps.net",
@@ -46,7 +49,8 @@ const projects = [
   },
   {
     title: "VendorFind",
-    description: "A vendor directory app that allows users to search and filter local vendors by category, location, and ratings. Built with HTML, CSS, JavaScript, Nodejs, Supabase, Express.",
+    description:
+      "A vendor directory app that allows users to search and filter local vendors by category, location, and ratings. Built with HTML, CSS, JavaScript, Nodejs, Supabase, Express.",
     image: "",
     tags: ["HTML", "CSS", "JavaScript", "Nodejs", "Supabase", "Express"],
     live: "https://echika.github.io/vendorfind/",
@@ -56,7 +60,8 @@ const projects = [
   },
   {
     title: "Coming Soon",
-    description: "Next project in progress. Job Board application with role-based authentication, job listings, and application tracking.",
+    description:
+      "Next project in progress. Job Board application with role-based authentication, job listings, and application tracking.",
     image: "",
     tags: ["React", "TypeScript", "MUI", "Supabase"],
     live: "#",
@@ -64,7 +69,7 @@ const projects = [
     featured: false,
     emoji: "🚀",
   },
-]
+];
 
 export default function Projects() {
   return (
@@ -187,8 +192,8 @@ export default function Projects() {
                       </Box>
                     )}
                     <Typography sx={{ fontSize: "4rem" }}>
-  {project.emoji}
-</Typography>
+                      {project.emoji}
+                    </Typography>
                   </Box>
 
                   <CardContent sx={{ p: 3 }}>
